@@ -5,6 +5,8 @@ import cookieParser from 'cookie-parser'
 import authrouter from './routes/auth.route.js'
 import cors from 'cors'
 import userrouter from './routes/user.route.js'
+import interviewRouter from './routes/interview.route.js'
+import paymentRouter from './routes/payment.route.js'
 dotenv.config()
 
 const app = express()
@@ -20,6 +22,9 @@ app.use(express.json())
 
 app.use('/api/auth', authrouter)
 app.use('/api/user', userrouter)
+app.use('/api/interview', interviewRouter)
+app.use("/api/payment" , paymentRouter)
+
 
 app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
