@@ -1,3 +1,3 @@
-const ServerUrl = "http://localhost:8000"; // or your backend port
+const ServerUrl = "https://ai-interview-r0w6.onrender.com"; // or your backend port
 
 export default ServerUrl;
