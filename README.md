@@ -52,11 +52,11 @@ Built as a full production-grade MERN stack application, from authentication and
 ## Homepage
 ![Homepage](./assets/p1.png)
 
-## Interview
-![Interview](./assets/p3.png)
-
 ## Dashboard
 ![Dashboard](./assets/p2.png)
+
+## Interview
+![Interview](./assets/p3.png)
 
 ## Interview Analytics Dashboard
 ![Interview Analytics Dashboard](./assets/p4.png)
