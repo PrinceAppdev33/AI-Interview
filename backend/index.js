@@ -13,7 +13,10 @@ const app = express()
 const PORT = process.env.PORT || 6000
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: [
+        "http://localhost:5173",
+        "https://ai-interview-1-fli1.onrender.com",
+      ],
     credentials: true
 }))
 
