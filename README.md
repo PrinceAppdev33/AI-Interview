@@ -49,7 +49,17 @@ Built as a full production-grade MERN stack application, from authentication and
 
 ## 📸 Demo
 
-> 🎥 Add a link, GIF, or screenshots of the live app here.
+## Homepage
+![Homepage](./assets/p1.png)
+
+## Interview
+![Interview](./assets/p3.png)
+
+## Dashboard
+![Dashboard](./assets/p2.png)
+
+## Interview Analytics Dashboard
+![Interview Analytics Dashboard](./assets/p4.png)
 
 ---
 
